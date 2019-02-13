@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		668955183DBBB36ECA70AFE2 /* Pods_SentimentaWriterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15F0EACA4F102A90C2575FB /* Pods_SentimentaWriterTests.framework */; };
+		B9B5A324B18DF315B996BF63 /* Pods_SentimentaWriterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4DF088C31FCC5A480D0002 /* Pods_SentimentaWriterUITests.framework */; };
+		F5192EE722123EB9002D01FE /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5192EE622123EB9002D01FE /* EmojiViewController.swift */; };
+		F51A7287221091380091EEE0 /* TwitterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A7286221091380091EEE0 /* TwitterModel.swift */; };
+		F51A7289221091530091EEE0 /* GoogleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A7288221091530091EEE0 /* GoogleModel.swift */; };
+		F51A728B221092F30091EEE0 /* GoogleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A728A221092F30091EEE0 /* GoogleService.swift */; };
+		F51A728D221093050091EEE0 /* TwitterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A728C221093050091EEE0 /* TwitterService.swift */; };
+		F51A72912210AB500091EEE0 /* TweetListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A72902210AB500091EEE0 /* TweetListTableViewController.swift */; };
+		F51A72932210ACAC0091EEE0 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A72922210ACAC0091EEE0 /* TweetTableViewCell.swift */; };
+		F580C17422137C1D0086292C /* TweetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F580C17322137C1D0086292C /* TweetListViewModel.swift */; };
+		F580C176221381960086292C /* EmojiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F580C175221381960086292C /* EmojiViewModel.swift */; };
+		F580C179221388200086292C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F580C178221388200086292C /* Constants.swift */; };
+		F580C17B2213923E0086292C /* UserNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F580C17A2213923E0086292C /* UserNameViewModel.swift */; };
+		F59FD297220E5C6800E4630A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FD296220E5C6800E4630A /* AppDelegate.swift */; };
+		F59FD299220E5C6800E4630A /* UserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FD298220E5C6800E4630A /* UserNameViewController.swift */; };
+		F59FD29C220E5C6800E4630A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59FD29A220E5C6800E4630A /* Main.storyboard */; };
+		F59FD29E220E5C6900E4630A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59FD29D220E5C6900E4630A /* Assets.xcassets */; };
+		F59FD2A1220E5C6900E4630A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59FD29F220E5C6900E4630A /* LaunchScreen.storyboard */; };
+		F59FD2AC220E5C6900E4630A /* SentimentaWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FD2AB220E5C6900E4630A /* SentimentaWriterTests.swift */; };
+		F59FD2B7220E5C6900E4630A /* SentimentaWriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FD2B6220E5C6900E4630A /* SentimentaWriterUITests.swift */; };
+		FA992615FF7DB84D76924926 /* Pods_SentimentaWriter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0AB873E586B7FECB60C9ED /* Pods_SentimentaWriter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F59FD2A8220E5C6900E4630A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59FD28B220E5C6800E4630A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59FD292220E5C6800E4630A;
+			remoteInfo = SentimentaWriter;
+		};
+		F59FD2B3220E5C6900E4630A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59FD28B220E5C6800E4630A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59FD292220E5C6800E4630A;
+			remoteInfo = SentimentaWriter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D0AB873E586B7FECB60C9ED /* Pods_SentimentaWriter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SentimentaWriter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB3721D9B16FFFDABCE3C97 /* Pods-SentimentaWriterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentimentaWriterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SentimentaWriterUITests/Pods-SentimentaWriterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9074236C779714DE2809C29B /* Pods-SentimentaWriter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentimentaWriter.release.xcconfig"; path = "Pods/Target Support Files/Pods-SentimentaWriter/Pods-SentimentaWriter.release.xcconfig"; sourceTree = "<group>"; };
+		925614EB8E897D693CD36723 /* Pods-SentimentaWriterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentimentaWriterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SentimentaWriterTests/Pods-SentimentaWriterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B4DF088C31FCC5A480D0002 /* Pods_SentimentaWriterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SentimentaWriterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E824BEC1226055AE1CB196 /* Pods-SentimentaWriter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentimentaWriter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SentimentaWriter/Pods-SentimentaWriter.debug.xcconfig"; sourceTree = "<group>"; };
+		D8604889162AE32294E244B1 /* Pods-SentimentaWriterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentimentaWriterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SentimentaWriterUITests/Pods-SentimentaWriterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA109676F0398F020461EC53 /* Pods-SentimentaWriterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentimentaWriterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SentimentaWriterTests/Pods-SentimentaWriterTests.release.xcconfig"; sourceTree = "<group>"; };
+		F15F0EACA4F102A90C2575FB /* Pods_SentimentaWriterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SentimentaWriterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5192EE622123EB9002D01FE /* EmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
+		F51A7286221091380091EEE0 /* TwitterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterModel.swift; sourceTree = "<group>"; };
+		F51A7288221091530091EEE0 /* GoogleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleModel.swift; sourceTree = "<group>"; };
+		F51A728A221092F30091EEE0 /* GoogleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleService.swift; sourceTree = "<group>"; };
+		F51A728C221093050091EEE0 /* TwitterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterService.swift; sourceTree = "<group>"; };
+		F51A72902210AB500091EEE0 /* TweetListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListTableViewController.swift; sourceTree = "<group>"; };
+		F51A72922210ACAC0091EEE0 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		F580C17322137C1D0086292C /* TweetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListViewModel.swift; sourceTree = "<group>"; };
+		F580C175221381960086292C /* EmojiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiViewModel.swift; sourceTree = "<group>"; };
+		F580C178221388200086292C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F580C17A2213923E0086292C /* UserNameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameViewModel.swift; sourceTree = "<group>"; };
+		F59FD293220E5C6800E4630A /* SentimentaWriter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SentimentaWriter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59FD296220E5C6800E4630A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F59FD298220E5C6800E4630A /* UserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameViewController.swift; sourceTree = "<group>"; };
+		F59FD29B220E5C6800E4630A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F59FD29D220E5C6900E4630A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F59FD2A0220E5C6900E4630A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F59FD2A2220E5C6900E4630A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59FD2A7220E5C6900E4630A /* SentimentaWriterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentimentaWriterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59FD2AB220E5C6900E4630A /* SentimentaWriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentaWriterTests.swift; sourceTree = "<group>"; };
+		F59FD2AD220E5C6900E4630A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59FD2B2220E5C6900E4630A /* SentimentaWriterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentimentaWriterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59FD2B6220E5C6900E4630A /* SentimentaWriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentaWriterUITests.swift; sourceTree = "<group>"; };
+		F59FD2B8220E5C6900E4630A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F59FD290220E5C6800E4630A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA992615FF7DB84D76924926 /* Pods_SentimentaWriter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59FD2A4220E5C6900E4630A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668955183DBBB36ECA70AFE2 /* Pods_SentimentaWriterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59FD2AF220E5C6900E4630A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B5A324B18DF315B996BF63 /* Pods_SentimentaWriterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F90094B707AEC449F1C6B23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D0AB873E586B7FECB60C9ED /* Pods_SentimentaWriter.framework */,
+				F15F0EACA4F102A90C2575FB /* Pods_SentimentaWriterTests.framework */,
+				9B4DF088C31FCC5A480D0002 /* Pods_SentimentaWriterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B73ECEB047F5C1C515C2D59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8E824BEC1226055AE1CB196 /* Pods-SentimentaWriter.debug.xcconfig */,
+				9074236C779714DE2809C29B /* Pods-SentimentaWriter.release.xcconfig */,
+				925614EB8E897D693CD36723 /* Pods-SentimentaWriterTests.debug.xcconfig */,
+				EA109676F0398F020461EC53 /* Pods-SentimentaWriterTests.release.xcconfig */,
+				5FB3721D9B16FFFDABCE3C97 /* Pods-SentimentaWriterUITests.debug.xcconfig */,
+				D8604889162AE32294E244B1 /* Pods-SentimentaWriterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F51A727822108F860091EEE0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F51A728A221092F30091EEE0 /* GoogleService.swift */,
+				F51A728C221093050091EEE0 /* TwitterService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F51A727E2210902D0091EEE0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F580C17322137C1D0086292C /* TweetListViewModel.swift */,
+				F580C175221381960086292C /* EmojiViewModel.swift */,
+				F580C17A2213923E0086292C /* UserNameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F51A72842210911B0091EEE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F51A7286221091380091EEE0 /* TwitterModel.swift */,
+				F51A7288221091530091EEE0 /* GoogleModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F51A7285221091220091EEE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F51A72922210ACAC0091EEE0 /* TweetTableViewCell.swift */,
+				F59FD298220E5C6800E4630A /* UserNameViewController.swift */,
+				F51A72902210AB500091EEE0 /* TweetListTableViewController.swift */,
+				F5192EE622123EB9002D01FE /* EmojiViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F580C177221388020086292C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F580C178221388200086292C /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F59FD28A220E5C6800E4630A = {
+			isa = PBXGroup;
+			children = (
+				F59FD295220E5C6800E4630A /* SentimentaWriter */,
+				F59FD2AA220E5C6900E4630A /* SentimentaWriterTests */,
+				F59FD2B5220E5C6900E4630A /* SentimentaWriterUITests */,
+				F59FD294220E5C6800E4630A /* Products */,
+				7B73ECEB047F5C1C515C2D59 /* Pods */,
+				3F90094B707AEC449F1C6B23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F59FD294220E5C6800E4630A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F59FD293220E5C6800E4630A /* SentimentaWriter.app */,
+				F59FD2A7220E5C6900E4630A /* SentimentaWriterTests.xctest */,
+				F59FD2B2220E5C6900E4630A /* SentimentaWriterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F59FD295220E5C6800E4630A /* SentimentaWriter */ = {
+			isa = PBXGroup;
+			children = (
+				F580C177221388020086292C /* Utilities */,
+				F51A727822108F860091EEE0 /* Services */,
+				F51A72842210911B0091EEE0 /* Model */,
+				F51A7285221091220091EEE0 /* View */,
+				F51A727E2210902D0091EEE0 /* ViewModel */,
+				F59FD296220E5C6800E4630A /* AppDelegate.swift */,
+				F59FD29A220E5C6800E4630A /* Main.storyboard */,
+				F59FD29D220E5C6900E4630A /* Assets.xcassets */,
+				F59FD29F220E5C6900E4630A /* LaunchScreen.storyboard */,
+				F59FD2A2220E5C6900E4630A /* Info.plist */,
+			);
+			path = SentimentaWriter;
+			sourceTree = "<group>";
+		};
+		F59FD2AA220E5C6900E4630A /* SentimentaWriterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F59FD2AB220E5C6900E4630A /* SentimentaWriterTests.swift */,
+				F59FD2AD220E5C6900E4630A /* Info.plist */,
+			);
+			path = SentimentaWriterTests;
+			sourceTree = "<group>";
+		};
+		F59FD2B5220E5C6900E4630A /* SentimentaWriterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F59FD2B6220E5C6900E4630A /* SentimentaWriterUITests.swift */,
+				F59FD2B8220E5C6900E4630A /* Info.plist */,
+			);
+			path = SentimentaWriterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F59FD292220E5C6800E4630A /* SentimentaWriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59FD2BB220E5C6900E4630A /* Build configuration list for PBXNativeTarget "SentimentaWriter" */;
+			buildPhases = (
+				5FB13597FF7EC11E83DF07E3 /* [CP] Check Pods Manifest.lock */,
+				F59FD28F220E5C6800E4630A /* Sources */,
+				F59FD290220E5C6800E4630A /* Frameworks */,
+				F59FD291220E5C6800E4630A /* Resources */,
+				C026B416D38669B81EFC3BE8 /* [CP] Embed Pods Frameworks */,
+				7590FC6E1ED1CB27E62223C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SentimentaWriter;
+			productName = SentimentaWriter;
+			productReference = F59FD293220E5C6800E4630A /* SentimentaWriter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F59FD2A6220E5C6900E4630A /* SentimentaWriterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59FD2BE220E5C6900E4630A /* Build configuration list for PBXNativeTarget "SentimentaWriterTests" */;
+			buildPhases = (
+				88FE0D0AA8E74C7AC16384D0 /* [CP] Check Pods Manifest.lock */,
+				F59FD2A3220E5C6900E4630A /* Sources */,
+				F59FD2A4220E5C6900E4630A /* Frameworks */,
+				F59FD2A5220E5C6900E4630A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59FD2A9220E5C6900E4630A /* PBXTargetDependency */,
+			);
+			name = SentimentaWriterTests;
+			productName = SentimentaWriterTests;
+			productReference = F59FD2A7220E5C6900E4630A /* SentimentaWriterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F59FD2B1220E5C6900E4630A /* SentimentaWriterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59FD2C1220E5C6900E4630A /* Build configuration list for PBXNativeTarget "SentimentaWriterUITests" */;
+			buildPhases = (
+				FD6E284F40FB83AB53A99E85 /* [CP] Check Pods Manifest.lock */,
+				F59FD2AE220E5C6900E4630A /* Sources */,
+				F59FD2AF220E5C6900E4630A /* Frameworks */,
+				F59FD2B0220E5C6900E4630A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59FD2B4220E5C6900E4630A /* PBXTargetDependency */,
+			);
+			name = SentimentaWriterUITests;
+			productName = SentimentaWriterUITests;
+			productReference = F59FD2B2220E5C6900E4630A /* SentimentaWriterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F59FD28B220E5C6800E4630A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Samuel Pinheiro Junior";
+				TargetAttributes = {
+					F59FD292220E5C6800E4630A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F59FD2A6220E5C6900E4630A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F59FD292220E5C6800E4630A;
+					};
+					F59FD2B1220E5C6900E4630A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F59FD292220E5C6800E4630A;
+					};
+				};
+			};
+			buildConfigurationList = F59FD28E220E5C6800E4630A /* Build configuration list for PBXProject "SentimentaWriter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F59FD28A220E5C6800E4630A;
+			productRefGroup = F59FD294220E5C6800E4630A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F59FD292220E5C6800E4630A /* SentimentaWriter */,
+				F59FD2A6220E5C6900E4630A /* SentimentaWriterTests */,
+				F59FD2B1220E5C6900E4630A /* SentimentaWriterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F59FD291220E5C6800E4630A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59FD2A1220E5C6900E4630A /* LaunchScreen.storyboard in Resources */,
+				F59FD29E220E5C6900E4630A /* Assets.xcassets in Resources */,
+				F59FD29C220E5C6800E4630A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59FD2A5220E5C6900E4630A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59FD2B0220E5C6900E4630A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FB13597FF7EC11E83DF07E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SentimentaWriter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7590FC6E1ED1CB27E62223C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SentimentaWriter/Pods-SentimentaWriter-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SentimentaWriter/Pods-SentimentaWriter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88FE0D0AA8E74C7AC16384D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SentimentaWriterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C026B416D38669B81EFC3BE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SentimentaWriter/Pods-SentimentaWriter-frameworks.sh",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SentimentaWriter/Pods-SentimentaWriter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD6E284F40FB83AB53A99E85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SentimentaWriterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F59FD28F220E5C6800E4630A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51A7287221091380091EEE0 /* TwitterModel.swift in Sources */,
+				F580C179221388200086292C /* Constants.swift in Sources */,
+				F5192EE722123EB9002D01FE /* EmojiViewController.swift in Sources */,
+				F51A728B221092F30091EEE0 /* GoogleService.swift in Sources */,
+				F51A72932210ACAC0091EEE0 /* TweetTableViewCell.swift in Sources */,
+				F580C17B2213923E0086292C /* UserNameViewModel.swift in Sources */,
+				F59FD299220E5C6800E4630A /* UserNameViewController.swift in Sources */,
+				F580C176221381960086292C /* EmojiViewModel.swift in Sources */,
+				F51A7289221091530091EEE0 /* GoogleModel.swift in Sources */,
+				F580C17422137C1D0086292C /* TweetListViewModel.swift in Sources */,
+				F51A72912210AB500091EEE0 /* TweetListTableViewController.swift in Sources */,
+				F59FD297220E5C6800E4630A /* AppDelegate.swift in Sources */,
+				F51A728D221093050091EEE0 /* TwitterService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59FD2A3220E5C6900E4630A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59FD2AC220E5C6900E4630A /* SentimentaWriterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59FD2AE220E5C6900E4630A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59FD2B7220E5C6900E4630A /* SentimentaWriterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F59FD2A9220E5C6900E4630A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59FD292220E5C6800E4630A /* SentimentaWriter */;
+			targetProxy = F59FD2A8220E5C6900E4630A /* PBXContainerItemProxy */;
+		};
+		F59FD2B4220E5C6900E4630A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59FD292220E5C6800E4630A /* SentimentaWriter */;
+			targetProxy = F59FD2B3220E5C6900E4630A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F59FD29A220E5C6800E4630A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59FD29B220E5C6800E4630A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F59FD29F220E5C6900E4630A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59FD2A0220E5C6900E4630A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F59FD2B9220E5C6900E4630A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F59FD2BA220E5C6900E4630A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F59FD2BC220E5C6900E4630A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E824BEC1226055AE1CB196 /* Pods-SentimentaWriter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SentimentaWriter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuelpj.SentimentaWriter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F59FD2BD220E5C6900E4630A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9074236C779714DE2809C29B /* Pods-SentimentaWriter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SentimentaWriter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuelpj.SentimentaWriter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F59FD2BF220E5C6900E4630A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925614EB8E897D693CD36723 /* Pods-SentimentaWriterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SentimentaWriterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuelpj.SentimentaWriterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SentimentaWriter.app/SentimentaWriter";
+			};
+			name = Debug;
+		};
+		F59FD2C0220E5C6900E4630A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA109676F0398F020461EC53 /* Pods-SentimentaWriterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SentimentaWriterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuelpj.SentimentaWriterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SentimentaWriter.app/SentimentaWriter";
+			};
+			name = Release;
+		};
+		F59FD2C2220E5C6900E4630A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FB3721D9B16FFFDABCE3C97 /* Pods-SentimentaWriterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SentimentaWriterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuelpj.SentimentaWriterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SentimentaWriter;
+			};
+			name = Debug;
+		};
+		F59FD2C3220E5C6900E4630A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8604889162AE32294E244B1 /* Pods-SentimentaWriterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SentimentaWriterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuelpj.SentimentaWriterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SentimentaWriter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F59FD28E220E5C6800E4630A /* Build configuration list for PBXProject "SentimentaWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59FD2B9220E5C6900E4630A /* Debug */,
+				F59FD2BA220E5C6900E4630A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59FD2BB220E5C6900E4630A /* Build configuration list for PBXNativeTarget "SentimentaWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59FD2BC220E5C6900E4630A /* Debug */,
+				F59FD2BD220E5C6900E4630A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59FD2BE220E5C6900E4630A /* Build configuration list for PBXNativeTarget "SentimentaWriterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59FD2BF220E5C6900E4630A /* Debug */,
+				F59FD2C0220E5C6900E4630A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59FD2C1220E5C6900E4630A /* Build configuration list for PBXNativeTarget "SentimentaWriterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59FD2C2220E5C6900E4630A /* Debug */,
+				F59FD2C3220E5C6900E4630A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F59FD28B220E5C6800E4630A /* Project object */;
+}

@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19D595547BE202D97EDCA566F09C4265 /* Pods-SentimentaWriter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BC33A73B4816501909F7AE41EF7A44 /* Pods-SentimentaWriter-dummy.m */; };
+		248AABE9317B29F74B63DE94A366F8F1 /* Pods-SentimentaWriter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80DABBFEFF6CF027E5341B73A186893C /* Pods-SentimentaWriter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49762EF042EC825807943EA9CCB59876 /* Pods-SentimentaWriterUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F09D7FF5AE791C800643B11DC26B20E /* Pods-SentimentaWriterUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A39A9CA5E7438ABD64FB4C5222C0620 /* Pods-SentimentaWriterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4E3EB45AD82B9F8D805B6A42E9E23 /* Pods-SentimentaWriterTests-dummy.m */; };
+		5194AE69860C123B2CF406DC8246ECB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		66A81D2A00634606E222BF95FF4EFB71 /* Pods-SentimentaWriterUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6859162AC6F6568716666EDE518857 /* Pods-SentimentaWriterUITests-dummy.m */; };
+		A371D6155C91B765E7896211F14BE438 /* Pods-SentimentaWriterTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C84864D608C513C073951F6A46990B /* Pods-SentimentaWriterTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C237190A1705D47B7A32EA4A04410610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		FA606E14516FBD2898C50C99172E2402 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB5264E4091020DA782C1581F344B50C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17E9061C6E62400050349A40E5AAF8AB;
+			remoteInfo = "Pods-SentimentaWriter";
+		};
+		C0468C5EC004EF0E290FA21C0B4307F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17E9061C6E62400050349A40E5AAF8AB;
+			remoteInfo = "Pods-SentimentaWriter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021E18644E447D7C6555FCF5B1497AAB /* Pods-SentimentaWriterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SentimentaWriterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17BB58A44EF2495F5878F1E476D50994 /* Pods-SentimentaWriterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SentimentaWriterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B6B4115EB2BFF82A423A05B4494D374 /* Pods-SentimentaWriterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SentimentaWriterTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		254E87CA02E750BFFFD4316EFE17A791 /* Pods-SentimentaWriter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SentimentaWriter-resources.sh"; sourceTree = "<group>"; };
+		2E80B7C604B2CF1E79FEEC68129148C9 /* Pods-SentimentaWriterTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SentimentaWriterTests-resources.sh"; sourceTree = "<group>"; };
+		30BC33A73B4816501909F7AE41EF7A44 /* Pods-SentimentaWriter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SentimentaWriter-dummy.m"; sourceTree = "<group>"; };
+		4576B4843AC4E21FE2BD9046046F009A /* Pods_SentimentaWriterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SentimentaWriterTests.framework; path = "Pods-SentimentaWriterTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		488C76A635138557100D07C9D9B33262 /* Pods-SentimentaWriter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SentimentaWriter.release.xcconfig"; sourceTree = "<group>"; };
+		4E82D2D732FED865A601B6483BC02DC4 /* Pods-SentimentaWriterUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SentimentaWriterUITests-resources.sh"; sourceTree = "<group>"; };
+		57E36962F42DE06BAEBDC87421F87764 /* Pods-SentimentaWriter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SentimentaWriter.debug.xcconfig"; sourceTree = "<group>"; };
+		58511531BF0B9CEB95F929D6AC160B94 /* Pods-SentimentaWriter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SentimentaWriter-frameworks.sh"; sourceTree = "<group>"; };
+		6408494BD72A78BD049435613D4D39EB /* Pods-SentimentaWriter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SentimentaWriter-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B2068C42AD4BF3FC6187CDB73F6E2CB /* Pods-SentimentaWriterTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SentimentaWriterTests.modulemap"; sourceTree = "<group>"; };
+		70CDF82F4B213D7DF51459FF27C2B6FB /* Pods-SentimentaWriterTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SentimentaWriterTests-frameworks.sh"; sourceTree = "<group>"; };
+		72C31C61A648067B0854D73D3FFAC1CF /* Pods-SentimentaWriterUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SentimentaWriterUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E21A4F9935AFCA88E145A71E0B80E4B /* Pods-SentimentaWriterUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SentimentaWriterUITests.modulemap"; sourceTree = "<group>"; };
+		80DABBFEFF6CF027E5341B73A186893C /* Pods-SentimentaWriter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SentimentaWriter-umbrella.h"; sourceTree = "<group>"; };
+		80F1E3FC67CBEF2362211BFA2B560FE3 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		844F0C24CC38649D47DA20F0DF1FCC41 /* Pods_SentimentaWriter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SentimentaWriter.framework; path = "Pods-SentimentaWriter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5EC629C4CFC15CB49BEEED5D927144 /* Pods-SentimentaWriterUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SentimentaWriterUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8DA22E45F03D101CCD855E4B0E72190C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		951B30210C25BD16A99E36EDB2420F48 /* Pods-SentimentaWriterUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SentimentaWriterUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D05A113B790D6B837A062247DEC3493 /* Pods-SentimentaWriter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SentimentaWriter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9F09D7FF5AE791C800643B11DC26B20E /* Pods-SentimentaWriterUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SentimentaWriterUITests-umbrella.h"; sourceTree = "<group>"; };
+		A30C2A10172C882977206BD1600E8EDF /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
+		A702B4446FBCDC409ACD9BF00C07B5D6 /* Pods_SentimentaWriterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SentimentaWriterUITests.framework; path = "Pods-SentimentaWriterUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A315864F14A302BF6CD0B45E2C3642 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		B4B0873671671829805F24A2F4EEA5BA /* Pods-SentimentaWriterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SentimentaWriterTests.release.xcconfig"; sourceTree = "<group>"; };
+		B76348A66D70CE2D422699E7954645DD /* Pods-SentimentaWriterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SentimentaWriterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4BDD2B55B3D92079208AFF2C6085EF0 /* Pods-SentimentaWriterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SentimentaWriterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB1AA7343C0EBC01C2C7C023601BB80A /* Pods-SentimentaWriter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SentimentaWriter.modulemap"; sourceTree = "<group>"; };
+		CE6859162AC6F6568716666EDE518857 /* Pods-SentimentaWriterUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SentimentaWriterUITests-dummy.m"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E9B4E3EB45AD82B9F8D805B6A42E9E23 /* Pods-SentimentaWriterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SentimentaWriterTests-dummy.m"; sourceTree = "<group>"; };
+		EB1A7537E2A5DE5A3CCDC6B2B1CF9B6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C84864D608C513C073951F6A46990B /* Pods-SentimentaWriterTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SentimentaWriterTests-umbrella.h"; sourceTree = "<group>"; };
+		FB848E9EFE3167B78F7CAE5F26788D9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01620D1893805D5E23B6EB712C28962F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C237190A1705D47B7A32EA4A04410610 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2635A40E8FEF8F9413D29D55AA7B73A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA606E14516FBD2898C50C99172E2402 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1DDE31200817F774EABA2B8C8442B0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5194AE69860C123B2CF406DC8246ECB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BF536F08A25BA83B4D06A7285B6CA6B /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				411517A95D07289E303AEB5356B6B063 /* Frameworks */,
+			);
+			name = TwitterCore;
+			path = TwitterCore;
+			sourceTree = "<group>";
+		};
+		3A35545495850D452A03FE1AFD917EA5 /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				A86A200F0FADBA0EC660E9AB0FE3703C /* Frameworks */,
+				551130E16DB2C6CBB2ADDA8711677513 /* Resources */,
+			);
+			name = TwitterKit;
+			path = TwitterKit;
+			sourceTree = "<group>";
+		};
+		411517A95D07289E303AEB5356B6B063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7A315864F14A302BF6CD0B45E2C3642 /* TwitterCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		551130E16DB2C6CBB2ADDA8711677513 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80F1E3FC67CBEF2362211BFA2B560FE3 /* TwitterKitResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5B69D58230A9E4E477E707981D621FA9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BD733CD006F129CB5824EFE8ACCC4B2 /* Pods-SentimentaWriter */,
+				7FAF47044432D747C24894E351AEA056 /* Pods-SentimentaWriterTests */,
+				72FC4546409C1FC3BBAE64D1BDDA39D0 /* Pods-SentimentaWriterUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5BD733CD006F129CB5824EFE8ACCC4B2 /* Pods-SentimentaWriter */ = {
+			isa = PBXGroup;
+			children = (
+				EB1A7537E2A5DE5A3CCDC6B2B1CF9B6F /* Info.plist */,
+				CB1AA7343C0EBC01C2C7C023601BB80A /* Pods-SentimentaWriter.modulemap */,
+				9D05A113B790D6B837A062247DEC3493 /* Pods-SentimentaWriter-acknowledgements.markdown */,
+				6408494BD72A78BD049435613D4D39EB /* Pods-SentimentaWriter-acknowledgements.plist */,
+				30BC33A73B4816501909F7AE41EF7A44 /* Pods-SentimentaWriter-dummy.m */,
+				58511531BF0B9CEB95F929D6AC160B94 /* Pods-SentimentaWriter-frameworks.sh */,
+				254E87CA02E750BFFFD4316EFE17A791 /* Pods-SentimentaWriter-resources.sh */,
+				80DABBFEFF6CF027E5341B73A186893C /* Pods-SentimentaWriter-umbrella.h */,
+				57E36962F42DE06BAEBDC87421F87764 /* Pods-SentimentaWriter.debug.xcconfig */,
+				488C76A635138557100D07C9D9B33262 /* Pods-SentimentaWriter.release.xcconfig */,
+			);
+			name = "Pods-SentimentaWriter";
+			path = "Target Support Files/Pods-SentimentaWriter";
+			sourceTree = "<group>";
+		};
+		6AD20DAD5E30DA011D51037C50AF6B9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BF536F08A25BA83B4D06A7285B6CA6B /* TwitterCore */,
+				3A35545495850D452A03FE1AFD917EA5 /* TwitterKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72FC4546409C1FC3BBAE64D1BDDA39D0 /* Pods-SentimentaWriterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB848E9EFE3167B78F7CAE5F26788D9D /* Info.plist */,
+				7E21A4F9935AFCA88E145A71E0B80E4B /* Pods-SentimentaWriterUITests.modulemap */,
+				951B30210C25BD16A99E36EDB2420F48 /* Pods-SentimentaWriterUITests-acknowledgements.markdown */,
+				72C31C61A648067B0854D73D3FFAC1CF /* Pods-SentimentaWriterUITests-acknowledgements.plist */,
+				CE6859162AC6F6568716666EDE518857 /* Pods-SentimentaWriterUITests-dummy.m */,
+				8D5EC629C4CFC15CB49BEEED5D927144 /* Pods-SentimentaWriterUITests-frameworks.sh */,
+				4E82D2D732FED865A601B6483BC02DC4 /* Pods-SentimentaWriterUITests-resources.sh */,
+				9F09D7FF5AE791C800643B11DC26B20E /* Pods-SentimentaWriterUITests-umbrella.h */,
+				17BB58A44EF2495F5878F1E476D50994 /* Pods-SentimentaWriterUITests.debug.xcconfig */,
+				B76348A66D70CE2D422699E7954645DD /* Pods-SentimentaWriterUITests.release.xcconfig */,
+			);
+			name = "Pods-SentimentaWriterUITests";
+			path = "Target Support Files/Pods-SentimentaWriterUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6AD20DAD5E30DA011D51037C50AF6B9D /* Pods */,
+				FAC404326B62654FCB74878947EF4BCA /* Products */,
+				5B69D58230A9E4E477E707981D621FA9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FAF47044432D747C24894E351AEA056 /* Pods-SentimentaWriterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DA22E45F03D101CCD855E4B0E72190C /* Info.plist */,
+				6B2068C42AD4BF3FC6187CDB73F6E2CB /* Pods-SentimentaWriterTests.modulemap */,
+				021E18644E447D7C6555FCF5B1497AAB /* Pods-SentimentaWriterTests-acknowledgements.markdown */,
+				1B6B4115EB2BFF82A423A05B4494D374 /* Pods-SentimentaWriterTests-acknowledgements.plist */,
+				E9B4E3EB45AD82B9F8D805B6A42E9E23 /* Pods-SentimentaWriterTests-dummy.m */,
+				70CDF82F4B213D7DF51459FF27C2B6FB /* Pods-SentimentaWriterTests-frameworks.sh */,
+				2E80B7C604B2CF1E79FEEC68129148C9 /* Pods-SentimentaWriterTests-resources.sh */,
+				F5C84864D608C513C073951F6A46990B /* Pods-SentimentaWriterTests-umbrella.h */,
+				C4BDD2B55B3D92079208AFF2C6085EF0 /* Pods-SentimentaWriterTests.debug.xcconfig */,
+				B4B0873671671829805F24A2F4EEA5BA /* Pods-SentimentaWriterTests.release.xcconfig */,
+			);
+			name = "Pods-SentimentaWriterTests";
+			path = "Target Support Files/Pods-SentimentaWriterTests";
+			sourceTree = "<group>";
+		};
+		A86A200F0FADBA0EC660E9AB0FE3703C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A30C2A10172C882977206BD1600E8EDF /* TwitterKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAC404326B62654FCB74878947EF4BCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844F0C24CC38649D47DA20F0DF1FCC41 /* Pods_SentimentaWriter.framework */,
+				4576B4843AC4E21FE2BD9046046F009A /* Pods_SentimentaWriterTests.framework */,
+				A702B4446FBCDC409ACD9BF00C07B5D6 /* Pods_SentimentaWriterUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C31F46264FFA06C913CD41307622E8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A371D6155C91B765E7896211F14BE438 /* Pods-SentimentaWriterTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881E9D7635E5F86D5BD087D87FDB600F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248AABE9317B29F74B63DE94A366F8F1 /* Pods-SentimentaWriter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E118B6EA7CE226C39ADD8A5332AEE249 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49762EF042EC825807943EA9CCB59876 /* Pods-SentimentaWriterUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0881F06CB926F908EF0A03B6B9900B66 /* Pods-SentimentaWriterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57E11F3F6F3614D81C73654FA548F5E /* Build configuration list for PBXNativeTarget "Pods-SentimentaWriterUITests" */;
+			buildPhases = (
+				E118B6EA7CE226C39ADD8A5332AEE249 /* Headers */,
+				4438165C34865BAE417CDBCCD0D6DFEC /* Sources */,
+				E1DDE31200817F774EABA2B8C8442B0E /* Frameworks */,
+				4AA0DE66DED1E15516663EEB2B03946F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				659AB8B56CF28C5404E06608BA34FD23 /* PBXTargetDependency */,
+			);
+			name = "Pods-SentimentaWriterUITests";
+			productName = "Pods-SentimentaWriterUITests";
+			productReference = A702B4446FBCDC409ACD9BF00C07B5D6 /* Pods_SentimentaWriterUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		17A909950EB31CD02371979000F0AE2E /* Pods-SentimentaWriterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE5DD69A6B1FB8285BB61B7B2434E69 /* Build configuration list for PBXNativeTarget "Pods-SentimentaWriterTests" */;
+			buildPhases = (
+				2C31F46264FFA06C913CD41307622E8A /* Headers */,
+				1E44AD1C57B6E363C6904539722CE449 /* Sources */,
+				2635A40E8FEF8F9413D29D55AA7B73A3 /* Frameworks */,
+				6C65E6450C64838BE8B01B4C8B2F7C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AF2731D0721D4E8779BE0DC634530D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SentimentaWriterTests";
+			productName = "Pods-SentimentaWriterTests";
+			productReference = 4576B4843AC4E21FE2BD9046046F009A /* Pods_SentimentaWriterTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		17E9061C6E62400050349A40E5AAF8AB /* Pods-SentimentaWriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51547D11C2B6D40320BBFB2EC9B78936 /* Build configuration list for PBXNativeTarget "Pods-SentimentaWriter" */;
+			buildPhases = (
+				881E9D7635E5F86D5BD087D87FDB600F /* Headers */,
+				CA373F750F6941EC18725FF4D7882812 /* Sources */,
+				01620D1893805D5E23B6EB712C28962F /* Frameworks */,
+				1DF302239A9E4AFFF9825C4257BF7317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SentimentaWriter";
+			productName = "Pods-SentimentaWriter";
+			productReference = 844F0C24CC38649D47DA20F0DF1FCC41 /* Pods_SentimentaWriter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FAC404326B62654FCB74878947EF4BCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17E9061C6E62400050349A40E5AAF8AB /* Pods-SentimentaWriter */,
+				17A909950EB31CD02371979000F0AE2E /* Pods-SentimentaWriterTests */,
+				0881F06CB926F908EF0A03B6B9900B66 /* Pods-SentimentaWriterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DF302239A9E4AFFF9825C4257BF7317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA0DE66DED1E15516663EEB2B03946F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C65E6450C64838BE8B01B4C8B2F7C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E44AD1C57B6E363C6904539722CE449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A39A9CA5E7438ABD64FB4C5222C0620 /* Pods-SentimentaWriterTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4438165C34865BAE417CDBCCD0D6DFEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A81D2A00634606E222BF95FF4EFB71 /* Pods-SentimentaWriterUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA373F750F6941EC18725FF4D7882812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D595547BE202D97EDCA566F09C4265 /* Pods-SentimentaWriter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		659AB8B56CF28C5404E06608BA34FD23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SentimentaWriter";
+			target = 17E9061C6E62400050349A40E5AAF8AB /* Pods-SentimentaWriter */;
+			targetProxy = C0468C5EC004EF0E290FA21C0B4307F0 /* PBXContainerItemProxy */;
+		};
+		8AF2731D0721D4E8779BE0DC634530D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SentimentaWriter";
+			target = 17E9061C6E62400050349A40E5AAF8AB /* Pods-SentimentaWriter */;
+			targetProxy = AB5264E4091020DA782C1581F344B50C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		013450FFC8C40D39BB60CAF8B6914B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17BB58A44EF2495F5878F1E476D50994 /* Pods-SentimentaWriterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SentimentaWriterUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SentimentaWriterUITests/Pods-SentimentaWriterUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1253874AD5DA3C4DE68D417E4527AB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4BDD2B55B3D92079208AFF2C6085EF0 /* Pods-SentimentaWriterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SentimentaWriterTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SentimentaWriterTests/Pods-SentimentaWriterTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D9A3E4873E53A0628B1E0147C2CC048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76348A66D70CE2D422699E7954645DD /* Pods-SentimentaWriterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SentimentaWriterUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SentimentaWriterUITests/Pods-SentimentaWriterUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6309BE6C29B983F6904419E435E40DD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57E36962F42DE06BAEBDC87421F87764 /* Pods-SentimentaWriter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SentimentaWriter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SentimentaWriter/Pods-SentimentaWriter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		667DF541D0D2103BD2DA69738A7F52DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488C76A635138557100D07C9D9B33262 /* Pods-SentimentaWriter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SentimentaWriter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SentimentaWriter/Pods-SentimentaWriter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AF98D1030E8CCE106063A2ADEA05F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4B0873671671829805F24A2F4EEA5BA /* Pods-SentimentaWriterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SentimentaWriterTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SentimentaWriterTests/Pods-SentimentaWriterTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BE5DD69A6B1FB8285BB61B7B2434E69 /* Build configuration list for PBXNativeTarget "Pods-SentimentaWriterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1253874AD5DA3C4DE68D417E4527AB21 /* Debug */,
+				7AF98D1030E8CCE106063A2ADEA05F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51547D11C2B6D40320BBFB2EC9B78936 /* Build configuration list for PBXNativeTarget "Pods-SentimentaWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6309BE6C29B983F6904419E435E40DD7 /* Debug */,
+				667DF541D0D2103BD2DA69738A7F52DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57E11F3F6F3614D81C73654FA548F5E /* Build configuration list for PBXNativeTarget "Pods-SentimentaWriterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013450FFC8C40D39BB60CAF8B6914B06 /* Debug */,
+				1D9A3E4873E53A0628B1E0147C2CC048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

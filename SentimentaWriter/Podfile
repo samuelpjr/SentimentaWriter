@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SentimentaWriter' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SentimentaWriter
+  pod 'TwitterKit'
+
+  target 'SentimentaWriterTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SentimentaWriterUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
