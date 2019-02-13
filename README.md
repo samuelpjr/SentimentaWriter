@@ -27,11 +27,8 @@ Create an app that given an Twitter username it will list user's tweets. When I 
 # Briefly elaborate of my solution:
 I've used MVVM pattern based on three pillars:
 
-* 1 Better separation of concerns:
-presents a better separation of concerns by adding view models. The view model translates the data of the model layer into something the view layer can use. The controller is no longer responsible for this task.
+* 1 Better separation of concerns: presents a better separation of concerns by adding view models. The view model translates the data of the model layer into something the view layer can use. The controller is no longer responsible for this task.
 
-* 2 Improved Testability
-By migrating data manipulation to the view model, testing becomes much easier. Testing view models is easy.
+* 2 Improved Testability: by migrating data manipulation to the view model, testing becomes much easier. Testing view models is easy.
 
-* 3 Transparent Communication
-The view model provides a transparent interface to the view controller, which it uses to populate the view layer and interact with the model layer. This results in a transparent communication between the four layers of your application.
+* 3 Transparent Communication: the view model provides a transparent interface to the view controller, which it uses to populate the view layer and interact with the model layer. This results in a transparent communication between the four layers of your application.
